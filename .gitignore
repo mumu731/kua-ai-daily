@@ -5,5 +5,7 @@ venv/
 .venv/
 .local-tools/
 output/
+public/
+themes/
 .env
 data

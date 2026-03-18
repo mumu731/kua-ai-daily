@@ -208,6 +208,33 @@ def generate_rss_feed(repo_name: str, feed_filename: str, articles: List[Dict[st
     print(f"已生成RSS: {feed_filename}")
 
 
+def generate_zola_content(date_str: str, md_content: str):
+    """生成 Zola 兼容的 content/posts/*.md 文件（带 TOML front matter）"""
+    posts_dir = os.path.join("content", "posts")
+    os.makedirs(posts_dir, exist_ok=True)
+
+    front_matter = f"""+++
+title = "🍑桃子日报 {date_str}"
+date = {date_str}T08:00:00+08:00
+description = "跨境电商每日资讯 {date_str}"
+
+[taxonomies]
+categories = ["日报"]
+tags = ["跨境电商", "日报"]
++++
+
+"""
+    # 去掉原 md_content 的第一行标题（avoid duplication with front matter title）
+    lines = md_content.split("\n")
+    body = "\n".join(lines[1:]).lstrip("\n")
+
+    filepath = os.path.join(posts_dir, f"{date_str}.md")
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(front_matter + body)
+
+    print(f"已生成 Zola 内容: {filepath}")
+
+
 def generate_readme(articles: List[Dict[str, Any]], repo_name: str, branch_name: str = "master"):
     """生成README.md"""
     feed_url = f"https://mumu731.github.io/kua-ai-daily/{PRIMARY_FEED_FILENAME}"
@@ -267,6 +294,7 @@ def main(repo_name: str = "user/repo", date_str: str = None):
     print("生成日报...")
     md_content = generate_daily_markdown(date_str, daily_articles, repo_name)
     save_daily_markdown(date_str, md_content)
+    generate_zola_content(date_str, md_content)
     
     # 4. 生成RSS
     print("\n生成RSS订阅...")

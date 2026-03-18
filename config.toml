@@ -1,17 +1,22 @@
-base_url = "https://mumu731.github.io/kua-ai-daily/"
+base_url = "https://mumu731.github.io/kua-ai-daily"
+title = "🍑桃子日报"
+description = "跨境电商每日资讯，自动抓取行业动态"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 theme = "even"
+
 taxonomies = [
     {name = "categories", feed = true},
     {name = "tags", feed = true},
 ]
+
 [extra]
 even_title = "🍑桃子日报"
 even_menu = [
-    {url = "https://mumu731.github.io/kua-ai-daily", name = "Home"},
-    {url = "https://mumu731.github.io/kua-ai-daily/tags/top/", name = "Top"},
+    {url = "$BASE_URL", name = "首页"},
+    {url = "$BASE_URL/categories/日报/", name = "日报"},
 ]
+
 [markdown]
 highlight_code = true
 render_emoji = true
