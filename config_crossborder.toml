@@ -1,0 +1,21 @@
+base_url = "https://yourname.github.io/crossborder-daily/"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+theme = "even"
+
+taxonomies = [
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
+[extra]
+even_title = "跨境电商早报"
+even_menu = [
+    {url = "https://yourname.github.io/crossborder-daily", name = "Home"},
+    {url = "https://yourname.github.io/crossborder-daily/tags/platform/", name = "平台动态"},
+    {url = "https://yourname.github.io/crossborder-daily/tags/logistics/", name = "跨境物流"},
+]
+
+[markdown]
+highlight_code = true
+render_emoji = true

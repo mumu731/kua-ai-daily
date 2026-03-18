@@ -5,3 +5,5 @@ venv/
 .venv/
 .local-tools/
 output/
+.env
+data

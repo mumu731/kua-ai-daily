@@ -1,4 +1,4 @@
-base_url = "https://imjuya.github.io/juya-ai-daily/"
+base_url = "https://mumu731.github.io/kua-ai-daily/"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 theme = "even"
@@ -7,10 +7,10 @@ taxonomies = [
     {name = "tags", feed = true},
 ]
 [extra]
-even_title = "橘鸦AI早报"
+even_title = "🍑桃子日报"
 even_menu = [
-    {url = "https://imjuya.github.io/juya-ai-daily", name = "Home"},
-    {url = "https://imjuya.github.io/juya-ai-daily/tags/top/", name = "Top"},
+    {url = "https://mumu731.github.io/kua-ai-daily", name = "Home"},
+    {url = "https://mumu731.github.io/kua-ai-daily/tags/top/", name = "Top"},
 ]
 [markdown]
 highlight_code = true

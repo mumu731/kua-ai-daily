@@ -1,41 +1,30 @@
-# 橘鸦AI早报
+# 跨境电商早报
 
-> 本仓库将AI早报备份为Markdown存档并自动生成RSS订阅。资讯内容由AI辅助生成，可能存在错误，请以原始信息出处和官方信息为准。内容从互联网上获取，如有侵权请联系删除。
+> 本仓库自动抓取跨境电商行业资讯，每日生成早报。内容来源于 Digital Commerce 360 和 Cross-Border Magazine。
 
-正式订阅地址：https://imjuya.github.io/juya-ai-daily/rss.xml
+正式订阅地址：https://yourname.github.io/crossborder-daily/rss.xml
 
 ## Links
 
 | Platform | Link |
 | :--- | :--- |
-| RSS Feed | [Subscribe](https://imjuya.github.io/juya-ai-daily/rss.xml) |
-| Markdown 备份 | [BACKUP](https://github.com/imjuya/juya-ai-daily/tree/master/BACKUP) |
-| GitHub Pages | [View](https://imjuya.github.io/juya-ai-daily/) |
-| 第三方多功能阅读器（@ViggoZ 制作） | [juya-daily](https://viggoz.github.io/juya-daily/) |
-| AI早报 视频版-Bilibili | [Bilibili](https://space.bilibili.com/285286947) |
-| AI早报 视频版-YouTube | [YouTube](https://www.youtube.com/@imjuya) |
+| RSS Feed | [Subscribe](https://yourname.github.io/crossborder-daily/rss.xml) |
+| Markdown 备份 | [BACKUP](https://github.com/yourname/crossborder-daily/tree/master/BACKUP) |
+| GitHub Pages | [View](https://yourname.github.io/crossborder-daily/) |
 
 ---
 
-
 ## 最近更新
-- [2026-03-18](https://github.com/imjuya/juya-ai-daily/issues/30)--2026-03-18
-- [2026-03-17](https://github.com/imjuya/juya-ai-daily/issues/29)--2026-03-17
-- [2026-03-16](https://github.com/imjuya/juya-ai-daily/issues/28)--2026-03-16
-- [2026-03-15](https://github.com/imjuya/juya-ai-daily/issues/27)--2026-03-15
-- [2026-03-14](https://github.com/imjuya/juya-ai-daily/issues/25)--2026-03-14
+
+- [Ultra-Fast 配送 Is Becoming the New Battleground in U.S. 电子商务](https://cross-border-magazine.com/ultra-fast-delivery-battleground-in-u-s-e-commerce/) -- 2026-03-17
+- [Dutch Startup Sparqle Raises €1.5M to Scale Emission-Free 配送 for 电子商务](https://cross-border-magazine.com/dutch-startup-sparqle-raises-e1-5m/) -- 2026-03-16
+- [Iran War Impact on 电子商务: How the Conflict Is Reshaping Global Online Trade](https://cross-border-magazine.com/iran-war-impact-on-e-commerce/) -- 2026-03-13
+- [EU 电子商务 Compliance Guide +Links](https://cross-border-magazine.com/eu-e-commerce-compliance-guide/) -- 2026-03-12
+- [Temu Challenges 亚马逊 for 跨境 电子商务 Dominance](https://cross-border-magazine.com/temu-challenges-amazon-for-cross-border-e-commerce-dominance/) -- 2026-03-11
 
 ---
 
 ## License
 
-- 代码（脚本与站点生成逻辑，基于 [yihong0618/gitblog](https://github.com/yihong0618/gitblog)）：[MIT](./LICENSE)
-- 文章内容（`BACKUP/`、`rss.xml`）：[CC BY-NC 4.0](./LICENSE-CONTENT)
-- 转载要求：署名，禁止商用
-- 第三方素材除外，按原权利声明
-
----
-
-## Credits
-
-Built with [gitblog](https://github.com/yihong0618/gitblog) by [@yihong0618](https://github.com/yihong0618)
+- 代码: MIT
+- 文章内容: 来源于公开RSS，版权归原作者所有
